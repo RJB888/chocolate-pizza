@@ -1,0 +1,40 @@
+
+
+body {
+
+  width: 80%;
+  margin: auto;
+  border: thin solid black;
+}
+
+div {
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.recipe {
+  background-image: url(img/list-bg.png);
+  background-repeat: no-repeat;
+
+
+}
+
+
+.author {
+
+}
+
+.footer {
+
+
+}
+
+#bottomLogo {
+
+}
+
+#mainImage {
+
+  width: 100%;  
+}
