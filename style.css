@@ -1,4 +1,21 @@
 
+ * {
+box-sizing: border-box;
+
+ }
+
+
+h2 {
+  width: 40%;
+
+  font-size: 2em;
+  font-family: cursive;
+
+  margin-bottom: 0;
+  margin-right: 0;
+  display: inline;
+}
+
 
 body {
 
@@ -13,11 +30,41 @@ div {
   padding: 0;
 }
 
+nav {
+  position: fixed;
+  top: 30px;
+  right: 130px;
+  margin-bottom: 35px;
+}
+
+.logobox {
+  margin-top: 30px;
+  margin-left: 10px;
+  line-height: 96%;
+}
+
+
+.recipetext p {
+  text-indent: 25px;
+}
+
+.clearfix {
+
+    clear: both;
+}
+
 .recipe {
   background-image: url(img/list-bg.png);
   background-repeat: no-repeat;
+  height: 250px;
 
 
+}
+
+.column {
+  width: 30%;
+  margin-right: : 5%;
+  float: left;
 }
 
 
@@ -30,11 +77,30 @@ div {
 
 }
 
+#topIcon {
+  float: left;
+  margin-top: -5px;
+}
+
+#smalltext {
+  font-family: sans-serif;
+  color: gray;
+  font-size: .6em;
+  width: 40%;
+  display: inline;
+
+}
+
+#spacer {
+
+    margin-left: 5px;
+}
+
 #bottomLogo {
 
 }
 
 #mainImage {
 
-  width: 100%;  
+  width: 100%;
 }
