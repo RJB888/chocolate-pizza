@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 h1 {
   margin-bottom: 0px;
-  font-family: Arial, sans-serif;
+  font-family: Impact, sans-serif;
   font-stretch: condensed;
 }
 
@@ -28,6 +28,7 @@ ul {
 li {
     font-family: "comic sans MS";
     line-height: 1.85em;
+    color: grey;
 }
 
 body {
@@ -55,6 +56,10 @@ nav {
   margin-bottom: 35px;
 }
 
+span {
+  text-decoration: line-through;
+}
+
 .logobox {
   margin-top: 30px;
   margin-left: 10px;
@@ -64,17 +69,27 @@ nav {
 
 .recipetext p {
   text-indent: 25px;
+  color: grey;
+  font-size: 20px;
+  line-height: 24px;
 }
 
-.clearfix {
-    border-top: 10px solid lightgrey;
-    clear: both;
+.clearfixA{
+  border-top: 10px solid lightgrey;
+  clear: both;
+  position: relative;
+  top: -30px;
+}
+.clearfixB{
+  border-top: 10px solid lightgrey;
+  clear: both;
 }
 
 .recipe {
   width: 100%;
   margin-bottom: 30px;
   background-image: url(img/list-bg.png);
+  box-shadow: 1px 5px 6px 1px #cbcbcc;
   background-repeat: no-repeat;
   height: 250px;
 
@@ -82,9 +97,11 @@ nav {
 }
 
 .column {
-  width: 30%;
-  margin-right: : 5%;
+  width: 40%;
   float: left;
+  padding-left: 80px;
+  padding-right: 12px;
+  padding-top: 23px;
 }
 
 
@@ -103,7 +120,7 @@ nav {
   font-size: 1.1em;
   border: none;
   color: white;
-  bottom: 60px;
+  bottom: 75px;
   right: -720px;
   width: 160px;
   height: 50px;
@@ -120,6 +137,7 @@ nav {
   color: lightgrey;
   margin: auto;
   margin-bottom: 40px;
+  font-size: 12px;
 
 }
 
@@ -132,6 +150,7 @@ nav {
 #topIcon {
   float: left;
   margin-top: -5px;
+  margin-right: 10px;
 }
 
 #printbutton {
@@ -163,4 +182,5 @@ nav {
 #mainImage {
 
   width: 100%;
+  padding-top: 10px;
 }
