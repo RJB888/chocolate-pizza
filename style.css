@@ -4,6 +4,11 @@ box-sizing: border-box;
 
  }
 
+h1 {
+  margin-bottom: 0px;
+  font-family: Arial, sans-serif;
+  font-stretch: condensed;
+}
 
 h2 {
   width: 40%;
@@ -16,12 +21,25 @@ h2 {
   display: inline;
 }
 
+ul {
+  list-style: circle;
+}
+
+li {
+    font-family: "comic sans MS";
+    line-height: 1.85em;
+}
 
 body {
 
-  width: 80%;
+  width: 900px;
   margin: auto;
-  border: thin solid black;
+}
+
+hr {
+  size: 10px;
+  color: darkgrey;
+
 }
 
 div {
@@ -31,9 +49,9 @@ div {
 }
 
 nav {
-  position: fixed;
-  top: 30px;
-  right: 130px;
+  position: relative;
+  top: -40px;
+  right: -610px;
   margin-bottom: 35px;
 }
 
@@ -49,11 +67,13 @@ nav {
 }
 
 .clearfix {
-
+    border-top: 10px solid lightgrey;
     clear: both;
 }
 
 .recipe {
+  width: 100%;
+  margin-bottom: 30px;
   background-image: url(img/list-bg.png);
   background-repeat: no-repeat;
   height: 250px;
@@ -69,17 +89,56 @@ nav {
 
 
 .author {
+  color: grey;
+}
 
+.author img {
+  float: left;
+  margin-right: 10px;
+}
+
+.author button {
+  position: relative;
+  background-color: #b16a36;
+  font-size: 1.1em;
+  border: none;
+  color: white;
+  bottom: 60px;
+  right: -720px;
+  width: 160px;
+  height: 50px;
 }
 
 .footer {
+  border-top: thin solid lightgrey;
+  text-align: center;
 
+}
+
+.footer p {
+  width: 270px;
+  color: lightgrey;
+  margin: auto;
+  margin-bottom: 40px;
+
+}
+
+#postedinfo {
+  margin-top: 0px;
+  color: lightgrey;
 
 }
 
 #topIcon {
   float: left;
   margin-top: -5px;
+}
+
+#printbutton {
+  color: lightgrey;
+  text-decoration: none;
+  float: right;
+
 }
 
 #smalltext {
@@ -97,7 +156,8 @@ nav {
 }
 
 #bottomLogo {
-
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 #mainImage {
